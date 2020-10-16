@@ -1,0 +1,28 @@
+@keyframes cloud {
+    0%{
+        transform: translate(-200px,0);
+    }
+    100%{
+        transform: translate(200px,0);
+    }
+}
+.cloud{
+   animation: cloud 5s linear infinite alternate;
+
+}
+.tree{
+    animation: tree 5s  linear infinite alternate;
+    transform-origin: left bottom;
+}
+@keyframes tree {
+     0%{
+         transform: rotate(0deg) skew(0deg);
+     }
+     50%{
+         transform: rotate(-3deg) skew(-1deg);
+     }
+     100%{
+         transform: rotate(1deg) skew(1deg);
+     }
+ }
+
