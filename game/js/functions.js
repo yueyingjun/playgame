@@ -27,10 +27,15 @@ function loadImgs(imgarr,eachfun,endfun) {
 * */
 
 
+
+
+
 function getRand(arr,num) {
-    var newarr=[]
+    var newarr=[];
     for(var i=0;i<num;i++){
+
         var rand=arr[Math.floor(Math.random()*arr.length)];
+
         while (checkRand(newarr,rand)){
             rand=arr[Math.floor(Math.random()*arr.length)];
         }
