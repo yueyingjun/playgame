@@ -4,7 +4,7 @@ class game{
         this.seed="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         // 需要预加载的资源
         this.resource=[
-            "img/bg.jpeg","img/start.png","img/startActive.png","img/cloud1.png","img/one.png","img/two.png","img/three.png","img/tree1.png","img/restart.png","img/next.png"
+            "img/bg111.png","img/start.png","img/startActive.png","img/cloud1.png","img/one.png","img/two.png","img/three.png","img/tree1.png","img/restart.png","img/next.png"
         ];
         //  通过循环将字母放入到资源的数组里面
         for(var i=0;i<this.seed.length;i++){
